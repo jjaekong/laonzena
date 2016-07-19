@@ -1,11 +1,13 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 html {
   min-width: 320px;
-  min-height: 100%; }
+  height: 100%; }
 
 body {
+  padding-top: 71px;
+  padding-bottom: 50px;
   min-width: 320px;
-  min-height: 100%;
+  height: 100%;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 12px;
   line-height: 18px;
@@ -13,7 +15,15 @@ body {
   background-image: url(/assets/images/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%; }
+  background-position: 50% 50%;
+  background-attachment: fixed; }
+  @media (min-width: 768px) {
+    body {
+      padding-top: 115px;
+      padding-bottom: 60px; } }
+  @media (min-width: 1200px) {
+    body {
+      padding-top: 180px; } }
 
 a {
   color: #fff; }
@@ -25,17 +35,23 @@ ol, ul {
   padding-left: 0;
   list-style: none; }
 
-/*
-
-*/
 #header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 320px;
+  width: 100%;
   height: 71px;
+  border-bottom: 1px solid #74654f;
   background-color: rgba(10, 10, 10, 0.52);
-  border-bottom: 1px solid #74654f; }
+  z-index: 30; }
   @media (min-width: 768px) {
     #header {
       height: 115px;
       border-bottom: 0; } }
+  @media (min-width: 1200px) {
+    #header {
+      height: 120px; } }
   #header .logo {
     margin: 16px auto 0;
     width: 148px;
@@ -49,6 +65,9 @@ ol, ul {
         margin-top: 20px;
         width: 281px;
         height: 73px; } }
+    @media (min-width: 1200px) {
+      #header .logo {
+        margin-top: 25px; } }
   #header .btn-menu {
     margin-top: 18px;
     margin-left: -5px;
@@ -137,5 +156,146 @@ ol, ul {
         content: url(/assets/images/ico_lock.png); }
       #header .member li.join a:before {
         content: url(/assets/images/ico_people.png); }
+
+#gnb-container {
+  display: none;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  padding-top: 71px;
+  min-width: 320px;
+  width: 100%;
+  height: 100%;
+  z-index: 20; }
+  @media (min-width: 768px) {
+    #gnb-container {
+      padding-top: 115px; } }
+  @media (min-width: 1200px) {
+    #gnb-container {
+      overflow: visible;
+      display: block;
+      padding-top: 120px;
+      height: 30px;
+      height: 150px; } }
+  #gnb-container #gnb {
+    overflow: auto;
+    padding-left: 0;
+    padding-right: 0;
+    min-width: 320px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 10, 10, 0.7); }
+    #gnb-container #gnb > ul {
+      background-color: #0a0a0a; }
+      #gnb-container #gnb > ul > li {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
+        #gnb-container #gnb > ul > li > a {
+          display: block;
+          padding-left: 15px;
+          padding-right: 15px;
+          height: 50px;
+          font-size: 16px;
+          line-height: 50px;
+          font-weight: 300;
+          text-decoration: none; }
+          @media (min-width: 768px) {
+            #gnb-container #gnb > ul > li > a {
+              padding-left: 30px;
+              padding-right: 30px;
+              height: 70px;
+              font-size: 22px;
+              line-height: 70px; } }
+        #gnb-container #gnb > ul > li > div > ul {
+          display: none; }
+          #gnb-container #gnb > ul > li > div > ul > li {
+            border-top: 1px solid rgba(255, 255, 255, 0.15); }
+            #gnb-container #gnb > ul > li > div > ul > li > a {
+              display: block;
+              padding-left: 20px;
+              padding-right: 20px;
+              height: 50px;
+              font-size: 16px;
+              line-height: 50px;
+              background-color: #2a2a2a;
+              font-weight: 100; }
+              @media (min-width: 768px) {
+                #gnb-container #gnb > ul > li > div > ul > li > a {
+                  padding-left: 45px;
+                  padding-right: 45px;
+                  height: 70px;
+                  font-size: 22px;
+                  line-height: 70px; } }
+          @media (min-width: 1200px) {
+            #gnb-container #gnb > ul > li > div > ul {
+              display: block; }
+              #gnb-container #gnb > ul > li > div > ul > li {
+                border: 0; }
+                #gnb-container #gnb > ul > li > div > ul > li > a {
+                  font-size: 14px;
+                  height: 30px;
+                  line-height: 30px;
+                  background-color: transparent; } }
+        #gnb-container #gnb > ul > li.active > ul {
+          display: block; }
+    @media (min-width: 1200px) {
+      #gnb-container #gnb {
+        overflow: visible;
+        height: 30px; }
+        #gnb-container #gnb > ul {
+          position: relative;
+          text-align: center;
+          background-color: transparent; }
+          #gnb-container #gnb > ul > li {
+            display: inline-block;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-bottom: 0; }
+            #gnb-container #gnb > ul > li > a {
+              padding-left: 0;
+              padding-right: 0;
+              height: 30px;
+              font-size: 14px;
+              color: #d2b98f;
+              line-height: 30px; }
+              #gnb-container #gnb > ul > li > a:hover, #gnb-container #gnb > ul > li > a:focus {
+                border-bottom: 1px solid rgba(152, 114, 55, 0.6); }
+            #gnb-container #gnb > ul > li > div {
+              position: absolute;
+              top: 30px;
+              left: 0;
+              width: 100%;
+              height: 30px;
+              background-color: rgba(10, 10, 10, 0.2); }
+              #gnb-container #gnb > ul > li > div > ul > li {
+                display: inline-block; }
+                #gnb-container #gnb > ul > li > div > ul > li > a {
+                  font-size: 14px;
+                  color: #fff; } }
+
+.gnb-opened {
+  overflow: hidden; }
+  .gnb-opened #gnb-container {
+    display: block; }
+  @media (min-width: 1200px) {
+    .gnb-opened {
+      overflow: auto; } }
+
+#content {
+  height: 2000px; }
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  min-width: 320px;
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  text-align: center;
+  line-height: 50px;
+  z-index: 10; }
+  @media (min-width: 768px) {
+    #footer {
+      height: 60px;
+      line-height: 60px; } }
 
 /*# sourceMappingURL=default.css.map */

@@ -12,7 +12,7 @@
     <![endif]-->
     <link href="/assets/css/default.css" rel="stylesheet">
 </head>
-<body>
+<body class="gnb-opened">
     <header id="header">
         <div class="container">
             <div class="row">
@@ -42,20 +42,65 @@
             </div>
         </div>
     </header>
-    <nav id="gnb" tabindex="-1">
-        <div class="container">
-
-        </div>
-    </nav>
+    <div id="gnb-container">
+        <nav id="gnb" tabindex="-1">
+            <ul>
+                <li>
+                    <a href="#">The laonzena</a>
+                    <div>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Vision</a></li>
+                            <li><a href="#">Map</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">Wedding photo</a>
+                    <div>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Vision</a></li>
+                            <li><a href="#">Map</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">Hair &amp; Make up</a>
+                </li>
+                <li>
+                    <a href="#">Wedding dress</a>
+                </li>
+                <li>
+                    <a href="#">Tuxedo</a>
+                </li>
+                <li>
+                    <a href="#">Wedding design</a>
+                </li>
+                <li>
+                    <a href="#">Academy</a>
+                </li>
+                <li>
+                    <a href="#">Photo gallery</a>
+                </li>
+                <li>
+                    <a href="#">Community</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <main id="content" tabindex="-1">
-
+        <div class="main-container">
+            #content
+        </div>
     </main>
     <footer id="footer">
         <div class="container">
             <p>(C) 2016 LAON ZENA. ALL RIGHTS RESERVED.</p>
         </div>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/jquery/1.11.3/jquery.min.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/common.js"></script>
 </body>
 </html>
