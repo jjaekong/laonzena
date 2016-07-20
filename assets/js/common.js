@@ -1,5 +1,5 @@
 // 메뉴 클릭 시
-$(document).on('click', '#gnb > .container > ul > li > a', function(e) {
+$(document).on('click focusin', '#gnb > ul > li > a', function(e) {
     if ($(this).parent().hasClass('active')) {
         $(this).parent().removeClass('active');
     } else {
