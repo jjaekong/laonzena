@@ -1,0 +1,185 @@
+@import 'common';
+
+.introduce {
+    &.about {
+        background-image: url(/assets/images/bg_about.jpg);
+    }
+    &.vision {
+        background-image: url(/assets/images/bg_vision.jpg);
+    }
+    &.map {
+        background-image: url(/assets/images/bg_map.jpg);
+        .map-area {
+            height: 250px;
+            img {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+            @media (min-width: $sm) {
+                margin-bottom: 70px;
+                height: 550px;
+                border: 2px solid #fff;
+            }
+            @media (min-width: $lg) {
+                margin-bottom: 0;
+                height: 450px;
+            }
+        }
+    }
+}
+
+.photo {
+    &.rehearsal {
+        background-image: url(/assets/images/bg_rehearsal.jpg);
+    }
+    &.ceremony {
+        background-image: url(/assets/images/bg_ceremony.jpg);
+    }
+    &.baby {
+        background-image: url(/assets/images/bg_baby.jpg);
+    }
+    &.family {
+        background-image: url(/assets/images/bg_family.jpg);
+    }
+    &.anniversary {
+        background-image: url(/assets/images/bg_anniversary.jpg);
+    }
+    &.profile {
+        background-image: url(/assets/images/bg_profile.jpg);
+    }
+    &.exclusive {
+        background-image: url(/assets/images/bg_exclusive.jpg);
+    }
+    &.premium {
+        background-image: url(/assets/images/bg_premium.jpg);
+        .desc-title {
+            letter-spacing: -1px;
+        }
+    }
+}
+
+.hair {
+    &.salon {
+        background-image: url(/assets/images/bg_salon.jpg);
+        .desc-link {
+            @media (min-width: $lg) {
+                margin-top: 10px;
+                li {
+                    margin-right: 25px;
+                }
+            }
+        }
+    }
+    &.artist {
+        background-image: url(/assets/images/bg_artist.jpg);
+    }
+}
+
+.dress {
+    background-image: url(/assets/images/bg_dress.jpg);
+}
+
+.tuxedo {
+    background-image: url(/assets/images/bg_tuxedo.jpg);
+}
+
+.design {
+    background-image: url(/assets/images/bg_design.jpg);
+}
+
+.academy {
+    background-image: url(/assets/images/bg_academy.jpg);
+}
+
+.gallery {
+    background-image: url(/assets/images/bg_gallery.jpg);
+    #content {
+        @media (min-width: $sm) {
+            background-color: rgba(#000, .8);
+        }
+        @media (min-width: $lg) {
+            background-color: transparent;
+        }
+    }
+    .content-box {
+        .content-cell {
+
+        }
+    }
+    .gallery-list {
+        margin: 0 auto;
+        padding: 30px 10px;
+        width: 300px;
+        @media (min-width: $sm) {
+            padding: 55px 0;
+            width: 100%;
+        }
+        @media (min-width: $lg) {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            padding: 35px 25px;
+            background-color: rgba(#000, .8);
+        }
+        h3 {
+            margin-bottom: 20px;
+            font-size: 25px;
+            color: #d2b98f;
+            @media (min-width: $sm) {
+                margin-bottom: 45px;
+                font-size: 40px;
+            }
+            @media (min-width: $lg) {
+                margin-bottom: 35px;
+                font-size: 35px;
+            }
+        }
+        ul {
+            li {
+                margin-bottom: 30px;
+                figure {
+                    position: relative;
+                    margin: 0 auto;
+                    width: 280px;
+                    height: 210px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                    figcaption {
+                        overflow: hidden;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 38px;
+                        color: #fff;
+                        background-color: rgba(#000, .7);
+                        text-align: center;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        font-size: 15px;
+                        line-height: 38px;
+                    }
+                    @media (min-width: $lg) {
+                        width: 100%;
+                        height: 190px;
+                    }
+                }
+            }
+        }
+        .paging {
+            .pagination {
+                margin-bottom: 40px;
+                @media (min-width: $sm) {
+                    margin-top: 20px;
+                    margin-bottom: 15px;
+                }
+                @media (min-width: $lg) {
+                    margin-top: 10px;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+}
