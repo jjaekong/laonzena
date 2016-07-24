@@ -9,12 +9,16 @@
                     <div class="content-box">
                         <div class="content-cell">
                             <div class="gallery-list">
-                                <h3>Photo Gallery</h3>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <h3>Photo Gallery</h3>
+                                    </div>
+                                </div>
                                 <ul class="row">
                                     <li class="col-xs-12 col-sm-6 col-lg-3">
                                         <a href="#">
                                             <figure>
-                                                <img src="/assets/images/img_gallery_thumb.jpg">
+                                                <p style="background-image: url(/assets/images/img_gallery_thumb.jpg);"></p>
                                                 <figcaption>Wedding Dress</figcaption>
                                             </figure>
                                         </a>
@@ -22,7 +26,7 @@
                                     <li class="col-xs-12 col-sm-6 col-lg-3">
                                         <a href="#">
                                             <figure>
-                                                <img src="/assets/images/img_gallery_thumb.jpg">
+                                                <p style="background-image: url(/assets/images/img_gallery_thumb.jpg);"></p>
                                                 <figcaption>Wedding Dress</figcaption>
                                             </figure>
                                         </a>
@@ -30,7 +34,7 @@
                                     <li class="col-xs-12 col-sm-6 col-lg-3">
                                         <a href="#">
                                             <figure>
-                                                <img src="/assets/images/img_gallery_thumb.jpg">
+                                                <p style="background-image: url(/assets/images/img_gallery_thumb.jpg);"></p>
                                                 <figcaption>Wedding Dress</figcaption>
                                             </figure>
                                         </a>
@@ -38,7 +42,7 @@
                                     <li class="col-xs-12 col-sm-6 col-lg-3">
                                         <a href="#">
                                             <figure>
-                                                <img src="/assets/images/img_gallery_thumb.jpg">
+                                                <p style="background-image: url(/assets/images/img_gallery_thumb.jpg);"></p>
                                                 <figcaption>Wedding Dress</figcaption>
                                             </figure>
                                         </a>
@@ -46,7 +50,7 @@
                                     <li class="col-xs-12 col-sm-6 col-lg-3">
                                         <a href="#">
                                             <figure>
-                                                <img src="/assets/images/img_gallery_thumb.jpg">
+                                                <p style="background-image: url(/assets/images/img_gallery_thumb.jpg);"></p>
                                                 <figcaption>Wedding Dress</figcaption>
                                             </figure>
                                         </a>
@@ -54,7 +58,7 @@
                                     <li class="col-xs-12 col-sm-6 col-lg-3">
                                         <a href="#">
                                             <figure>
-                                                <img src="/assets/images/img_gallery_thumb.jpg">
+                                                <p style="background-image: url(/assets/images/img_gallery_thumb.jpg);"></p>
                                                 <figcaption>Wedding Dress</figcaption>
                                             </figure>
                                         </a>
@@ -62,7 +66,7 @@
                                     <li class="col-xs-12 col-sm-6 col-lg-3">
                                         <a href="#">
                                             <figure>
-                                                <img src="/assets/images/img_gallery_thumb.jpg">
+                                                <p style="background-image: url(/assets/images/img_gallery_thumb.jpg);"></p>
                                                 <figcaption>Wedding Dress</figcaption>
                                             </figure>
                                         </a>
@@ -70,7 +74,7 @@
                                     <li class="col-xs-12 col-sm-6 col-lg-3">
                                         <a href="#">
                                             <figure>
-                                                <img src="/assets/images/img_gallery_thumb.jpg">
+                                                <p style="background-image: url(/assets/images/img_gallery_thumb.jpg);"></p>
                                                 <figcaption>Wedding Dress</figcaption>
                                             </figure>
                                         </a>

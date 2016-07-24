@@ -18,10 +18,10 @@
             </div>
             <div class="col-xs-2">
                 <a class="btn btn-user hidden-lg" href="#"><img src="/assets/images/ico_user.png" alt=""></a>
-                <a class="reserve visible-lg-block" href="#">预约</a>
+                <a class="reserve visible-lg-block" href="/community/reservation.php">预约</a>
                 <ul class="member visible-lg-block">
-                    <li class="login"><a href="#">登陆</a></li>
-                    <li class="join"><a href="#">注册</a></li>
+                    <li class="login"><a href="/member/login.php">登陆</a></li>
+                    <li class="join"><a href="/member/join.php">注册</a></li>
                 </ul>
             </div>
         </div>
@@ -76,7 +76,7 @@
             <li>
                 <a href="/community/notice.php">社区论坛</a>
                 <ul>
-                    <li><a href="/community/notice.php">公告事项</a></li>
+                    <li><a href="/community/board.php">公告事项</a></li>
                     <li><a href="/community/event.php">活动</a></li>
                     <li><a href="/community/board.php">公告板</a></li>
                     <li><a href="/community/reservation.php">预约</a></li>

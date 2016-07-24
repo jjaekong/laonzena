@@ -356,226 +356,226 @@ p {
   #content .container {
     padding-left: 0;
     padding-right: 0; }
-    #content .container .row {
+    #content .container > .row {
       margin-left: 0;
       margin-right: 0; }
-      #content .container .row .col-xs-1,
-      #content .container .row .col-sm-1,
-      #content .container .row .col-md-1,
-      #content .container .row .col-lg-1 {
+      #content .container > .row > .col-xs-1,
+      #content .container > .row > .col-sm-1,
+      #content .container > .row > .col-md-1,
+      #content .container > .row > .col-lg-1 {
         padding-left: 0;
         padding-right: 0; }
-      #content .container .row .col-xs-2,
-      #content .container .row .col-sm-2,
-      #content .container .row .col-md-2,
-      #content .container .row .col-lg-2 {
+      #content .container > .row > .col-xs-2,
+      #content .container > .row > .col-sm-2,
+      #content .container > .row > .col-md-2,
+      #content .container > .row > .col-lg-2 {
         padding-left: 0;
         padding-right: 0; }
-      #content .container .row .col-xs-3,
-      #content .container .row .col-sm-3,
-      #content .container .row .col-md-3,
-      #content .container .row .col-lg-3 {
+      #content .container > .row > .col-xs-3,
+      #content .container > .row > .col-sm-3,
+      #content .container > .row > .col-md-3,
+      #content .container > .row > .col-lg-3 {
         padding-left: 0;
         padding-right: 0; }
-      #content .container .row .col-xs-4,
-      #content .container .row .col-sm-4,
-      #content .container .row .col-md-4,
-      #content .container .row .col-lg-4 {
+      #content .container > .row > .col-xs-4,
+      #content .container > .row > .col-sm-4,
+      #content .container > .row > .col-md-4,
+      #content .container > .row > .col-lg-4 {
         padding-left: 0;
         padding-right: 0; }
-      #content .container .row .col-xs-5,
-      #content .container .row .col-sm-5,
-      #content .container .row .col-md-5,
-      #content .container .row .col-lg-5 {
+      #content .container > .row > .col-xs-5,
+      #content .container > .row > .col-sm-5,
+      #content .container > .row > .col-md-5,
+      #content .container > .row > .col-lg-5 {
         padding-left: 0;
         padding-right: 0; }
-      #content .container .row .col-xs-6,
-      #content .container .row .col-sm-6,
-      #content .container .row .col-md-6,
-      #content .container .row .col-lg-6 {
+      #content .container > .row > .col-xs-6,
+      #content .container > .row > .col-sm-6,
+      #content .container > .row > .col-md-6,
+      #content .container > .row > .col-lg-6 {
         padding-left: 0;
         padding-right: 0; }
-      #content .container .row .col-xs-7,
-      #content .container .row .col-sm-7,
-      #content .container .row .col-md-7,
-      #content .container .row .col-lg-7 {
+      #content .container > .row > .col-xs-7,
+      #content .container > .row > .col-sm-7,
+      #content .container > .row > .col-md-7,
+      #content .container > .row > .col-lg-7 {
         padding-left: 0;
         padding-right: 0; }
-      #content .container .row .col-xs-8,
-      #content .container .row .col-sm-8,
-      #content .container .row .col-md-8,
-      #content .container .row .col-lg-8 {
+      #content .container > .row > .col-xs-8,
+      #content .container > .row > .col-sm-8,
+      #content .container > .row > .col-md-8,
+      #content .container > .row > .col-lg-8 {
         padding-left: 0;
         padding-right: 0; }
-      #content .container .row .col-xs-9,
-      #content .container .row .col-sm-9,
-      #content .container .row .col-md-9,
-      #content .container .row .col-lg-9 {
+      #content .container > .row > .col-xs-9,
+      #content .container > .row > .col-sm-9,
+      #content .container > .row > .col-md-9,
+      #content .container > .row > .col-lg-9 {
         padding-left: 0;
         padding-right: 0; }
-      #content .container .row .col-xs-10,
-      #content .container .row .col-sm-10,
-      #content .container .row .col-md-10,
-      #content .container .row .col-lg-10 {
+      #content .container > .row > .col-xs-10,
+      #content .container > .row > .col-sm-10,
+      #content .container > .row > .col-md-10,
+      #content .container > .row > .col-lg-10 {
         padding-left: 0;
         padding-right: 0; }
-      #content .container .row .col-xs-11,
-      #content .container .row .col-sm-11,
-      #content .container .row .col-md-11,
-      #content .container .row .col-lg-11 {
+      #content .container > .row > .col-xs-11,
+      #content .container > .row > .col-sm-11,
+      #content .container > .row > .col-md-11,
+      #content .container > .row > .col-lg-11 {
         padding-left: 0;
         padding-right: 0; }
-      #content .container .row .col-xs-12,
-      #content .container .row .col-sm-12,
-      #content .container .row .col-md-12,
-      #content .container .row .col-lg-12 {
+      #content .container > .row > .col-xs-12,
+      #content .container > .row > .col-sm-12,
+      #content .container > .row > .col-md-12,
+      #content .container > .row > .col-lg-12 {
         padding-left: 0;
         padding-right: 0; }
     @media (min-width: 768px) {
       #content .container {
         padding-left: 15px;
         padding-right: 15px; }
-        #content .container .row {
+        #content .container > .row {
           margin-left: 0;
           margin-right: 0; }
-          #content .container .row .col-xs-1,
-          #content .container .row .col-sm-1,
-          #content .container .row .col-md-1,
-          #content .container .row .col-lg-1 {
+          #content .container > .row > .col-xs-1,
+          #content .container > .row > .col-sm-1,
+          #content .container > .row > .col-md-1,
+          #content .container > .row > .col-lg-1 {
             padding-left: 15px;
             padding-right: 15px; }
-          #content .container .row .col-xs-2,
-          #content .container .row .col-sm-2,
-          #content .container .row .col-md-2,
-          #content .container .row .col-lg-2 {
+          #content .container > .row > .col-xs-2,
+          #content .container > .row > .col-sm-2,
+          #content .container > .row > .col-md-2,
+          #content .container > .row > .col-lg-2 {
             padding-left: 15px;
             padding-right: 15px; }
-          #content .container .row .col-xs-3,
-          #content .container .row .col-sm-3,
-          #content .container .row .col-md-3,
-          #content .container .row .col-lg-3 {
+          #content .container > .row > .col-xs-3,
+          #content .container > .row > .col-sm-3,
+          #content .container > .row > .col-md-3,
+          #content .container > .row > .col-lg-3 {
             padding-left: 15px;
             padding-right: 15px; }
-          #content .container .row .col-xs-4,
-          #content .container .row .col-sm-4,
-          #content .container .row .col-md-4,
-          #content .container .row .col-lg-4 {
+          #content .container > .row > .col-xs-4,
+          #content .container > .row > .col-sm-4,
+          #content .container > .row > .col-md-4,
+          #content .container > .row > .col-lg-4 {
             padding-left: 15px;
             padding-right: 15px; }
-          #content .container .row .col-xs-5,
-          #content .container .row .col-sm-5,
-          #content .container .row .col-md-5,
-          #content .container .row .col-lg-5 {
+          #content .container > .row > .col-xs-5,
+          #content .container > .row > .col-sm-5,
+          #content .container > .row > .col-md-5,
+          #content .container > .row > .col-lg-5 {
             padding-left: 15px;
             padding-right: 15px; }
-          #content .container .row .col-xs-6,
-          #content .container .row .col-sm-6,
-          #content .container .row .col-md-6,
-          #content .container .row .col-lg-6 {
+          #content .container > .row > .col-xs-6,
+          #content .container > .row > .col-sm-6,
+          #content .container > .row > .col-md-6,
+          #content .container > .row > .col-lg-6 {
             padding-left: 15px;
             padding-right: 15px; }
-          #content .container .row .col-xs-7,
-          #content .container .row .col-sm-7,
-          #content .container .row .col-md-7,
-          #content .container .row .col-lg-7 {
+          #content .container > .row > .col-xs-7,
+          #content .container > .row > .col-sm-7,
+          #content .container > .row > .col-md-7,
+          #content .container > .row > .col-lg-7 {
             padding-left: 15px;
             padding-right: 15px; }
-          #content .container .row .col-xs-8,
-          #content .container .row .col-sm-8,
-          #content .container .row .col-md-8,
-          #content .container .row .col-lg-8 {
+          #content .container > .row > .col-xs-8,
+          #content .container > .row > .col-sm-8,
+          #content .container > .row > .col-md-8,
+          #content .container > .row > .col-lg-8 {
             padding-left: 15px;
             padding-right: 15px; }
-          #content .container .row .col-xs-9,
-          #content .container .row .col-sm-9,
-          #content .container .row .col-md-9,
-          #content .container .row .col-lg-9 {
+          #content .container > .row > .col-xs-9,
+          #content .container > .row > .col-sm-9,
+          #content .container > .row > .col-md-9,
+          #content .container > .row > .col-lg-9 {
             padding-left: 15px;
             padding-right: 15px; }
-          #content .container .row .col-xs-10,
-          #content .container .row .col-sm-10,
-          #content .container .row .col-md-10,
-          #content .container .row .col-lg-10 {
+          #content .container > .row > .col-xs-10,
+          #content .container > .row > .col-sm-10,
+          #content .container > .row > .col-md-10,
+          #content .container > .row > .col-lg-10 {
             padding-left: 15px;
             padding-right: 15px; }
-          #content .container .row .col-xs-11,
-          #content .container .row .col-sm-11,
-          #content .container .row .col-md-11,
-          #content .container .row .col-lg-11 {
+          #content .container > .row > .col-xs-11,
+          #content .container > .row > .col-sm-11,
+          #content .container > .row > .col-md-11,
+          #content .container > .row > .col-lg-11 {
             padding-left: 15px;
             padding-right: 15px; }
-          #content .container .row .col-xs-12,
-          #content .container .row .col-sm-12,
-          #content .container .row .col-md-12,
-          #content .container .row .col-lg-12 {
+          #content .container > .row > .col-xs-12,
+          #content .container > .row > .col-sm-12,
+          #content .container > .row > .col-md-12,
+          #content .container > .row > .col-lg-12 {
             padding-left: 15px;
             padding-right: 15px; } }
     @media (min-width: 1200px) {
       #content .container {
         height: 100%; }
-        #content .container .row {
+        #content .container > .row {
           margin-left: -15px;
           margin-right: -15px;
           height: 100%; }
-          #content .container .row .col-xs-1,
-          #content .container .row .col-sm-1,
-          #content .container .row .col-md-1,
-          #content .container .row .col-lg-1 {
+          #content .container > .row > .col-xs-1,
+          #content .container > .row > .col-sm-1,
+          #content .container > .row > .col-md-1,
+          #content .container > .row > .col-lg-1 {
             height: 100%; }
-          #content .container .row .col-xs-2,
-          #content .container .row .col-sm-2,
-          #content .container .row .col-md-2,
-          #content .container .row .col-lg-2 {
+          #content .container > .row > .col-xs-2,
+          #content .container > .row > .col-sm-2,
+          #content .container > .row > .col-md-2,
+          #content .container > .row > .col-lg-2 {
             height: 100%; }
-          #content .container .row .col-xs-3,
-          #content .container .row .col-sm-3,
-          #content .container .row .col-md-3,
-          #content .container .row .col-lg-3 {
+          #content .container > .row > .col-xs-3,
+          #content .container > .row > .col-sm-3,
+          #content .container > .row > .col-md-3,
+          #content .container > .row > .col-lg-3 {
             height: 100%; }
-          #content .container .row .col-xs-4,
-          #content .container .row .col-sm-4,
-          #content .container .row .col-md-4,
-          #content .container .row .col-lg-4 {
+          #content .container > .row > .col-xs-4,
+          #content .container > .row > .col-sm-4,
+          #content .container > .row > .col-md-4,
+          #content .container > .row > .col-lg-4 {
             height: 100%; }
-          #content .container .row .col-xs-5,
-          #content .container .row .col-sm-5,
-          #content .container .row .col-md-5,
-          #content .container .row .col-lg-5 {
+          #content .container > .row > .col-xs-5,
+          #content .container > .row > .col-sm-5,
+          #content .container > .row > .col-md-5,
+          #content .container > .row > .col-lg-5 {
             height: 100%; }
-          #content .container .row .col-xs-6,
-          #content .container .row .col-sm-6,
-          #content .container .row .col-md-6,
-          #content .container .row .col-lg-6 {
+          #content .container > .row > .col-xs-6,
+          #content .container > .row > .col-sm-6,
+          #content .container > .row > .col-md-6,
+          #content .container > .row > .col-lg-6 {
             height: 100%; }
-          #content .container .row .col-xs-7,
-          #content .container .row .col-sm-7,
-          #content .container .row .col-md-7,
-          #content .container .row .col-lg-7 {
+          #content .container > .row > .col-xs-7,
+          #content .container > .row > .col-sm-7,
+          #content .container > .row > .col-md-7,
+          #content .container > .row > .col-lg-7 {
             height: 100%; }
-          #content .container .row .col-xs-8,
-          #content .container .row .col-sm-8,
-          #content .container .row .col-md-8,
-          #content .container .row .col-lg-8 {
+          #content .container > .row > .col-xs-8,
+          #content .container > .row > .col-sm-8,
+          #content .container > .row > .col-md-8,
+          #content .container > .row > .col-lg-8 {
             height: 100%; }
-          #content .container .row .col-xs-9,
-          #content .container .row .col-sm-9,
-          #content .container .row .col-md-9,
-          #content .container .row .col-lg-9 {
+          #content .container > .row > .col-xs-9,
+          #content .container > .row > .col-sm-9,
+          #content .container > .row > .col-md-9,
+          #content .container > .row > .col-lg-9 {
             height: 100%; }
-          #content .container .row .col-xs-10,
-          #content .container .row .col-sm-10,
-          #content .container .row .col-md-10,
-          #content .container .row .col-lg-10 {
+          #content .container > .row > .col-xs-10,
+          #content .container > .row > .col-sm-10,
+          #content .container > .row > .col-md-10,
+          #content .container > .row > .col-lg-10 {
             height: 100%; }
-          #content .container .row .col-xs-11,
-          #content .container .row .col-sm-11,
-          #content .container .row .col-md-11,
-          #content .container .row .col-lg-11 {
+          #content .container > .row > .col-xs-11,
+          #content .container > .row > .col-sm-11,
+          #content .container > .row > .col-md-11,
+          #content .container > .row > .col-lg-11 {
             height: 100%; }
-          #content .container .row .col-xs-12,
-          #content .container .row .col-sm-12,
-          #content .container .row .col-md-12,
-          #content .container .row .col-lg-12 {
+          #content .container > .row > .col-xs-12,
+          #content .container > .row > .col-sm-12,
+          #content .container > .row > .col-md-12,
+          #content .container > .row > .col-lg-12 {
             height: 100%; } }
 
 @media (min-width: 1200px) {
