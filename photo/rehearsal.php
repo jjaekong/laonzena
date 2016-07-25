@@ -37,7 +37,7 @@
                                 </div>
                                 <footer class="desc-foot">
                                     <ul class="desc-link">
-                                        <li><a href="/community/reservation.php">PHOTO GALLERY</a></li>
+                                        <li><a href="/gallery.php">PHOTO GALLERY</a></li>
                                     </ul>
                                 </footer>
                             </article>
