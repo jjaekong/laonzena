@@ -348,7 +348,8 @@ p {
   background: -webkit-linear-gradient(rgba(11, 11, 11, 0.8), #0b0b0b 50%);
   background: -o-linear-gradient(rgba(11, 11, 11, 0.8), #0b0b0b 50%);
   background: -moz-linear-gradient(rgba(11, 11, 11, 0.8), #0b0b0b 50%);
-  background: linear-gradient(rgba(11, 11, 11, 0.8), #0b0b0b 50%); }
+  background: linear-gradient(rgba(11, 11, 11, 0.8), #0b0b0b 50%);
+  -webkit-overflow-scrolling: touch; }
   @media (min-width: 768px) {
     #content {
       background: none;

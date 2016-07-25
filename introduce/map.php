@@ -27,7 +27,7 @@
                                 <footer class="desc-foot">
                                     <ul class="desc-link">
                                         <li><a href="#">DOWNLOAD BROCHURE</a></li>
-                                        <li><a href="#">RESERVATIONS</a></li>
+                                        <li><a href="/community/reservation.php">RESERVATIONS</a></li>
                                     </ul>
                                 </footer>
                             </article>

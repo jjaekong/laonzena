@@ -417,6 +417,7 @@ p {
     background: -o-linear-gradient(rgba(#0b0b0b, .8), rgba(#0b0b0b, 1) 50%);
     background: -moz-linear-gradient(rgba(#0b0b0b, .8), rgba(#0b0b0b, 1) 50%);
     background: linear-gradient(rgba(#0b0b0b, .8), rgba(#0b0b0b, 1) 50%);
+    -webkit-overflow-scrolling: touch;
     @media (min-width: $sm) {
         background: none;
         background-color: transparent;

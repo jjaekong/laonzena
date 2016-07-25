@@ -38,7 +38,7 @@
                                 </div>
                                 <footer class="desc-foot">
                                     <ul class="desc-link">
-                                        <li><a href="#">VIDEO</a></li>
+                                        <li><a href="/photo/premium.php">VIDEO</a></li>
                                     </ul>
                                 </footer>
                             </article>
