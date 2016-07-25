@@ -21,6 +21,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-lg-7">
+                    아티스트 설명영역
                 </div>
             </div>
         </div>
