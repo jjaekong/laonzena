@@ -44,6 +44,23 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-xs-12 col-lg-7">
+                    <div class="content-box">
+                        <div class="content-cell">
+                            <div class="service hidden-lg">
+                                <p class="text-center"><img class="img-responsive" src="/assets/images/img_wedding_service.png" alt=""></p>
+                            </div>
+                            <div class="service visible-lg">
+                                <span class="service-1"></span>
+                                <span class="service-2"></span>
+                                <span class="service-3"></span>
+                                <span class="service-4"></span>
+                                <span class="service-5"></span>
+                                <span class="service-6"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>

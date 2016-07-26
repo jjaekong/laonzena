@@ -133,6 +133,87 @@
 .introduce {
     &.about {
         background-image: url(/assets/images/bg_about.jpg);
+        .service {
+            &.hidden-lg {
+                padding: 40px 15px;
+                background-color: #171717;
+                .img-responsive {
+                    margin: 0 auto;
+                }
+            }
+            &.visible-lg {
+                float: right;
+                position: relative;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                width: 600px;
+                height: 550px;
+                background-image: url(/assets/images/txt_service.png);
+                background-position: 50% 50%;
+                background-repeat: no-repeat;
+                > span {
+                    position: absolute;
+                    display: block;
+                    width: 170px;
+                    height: 170px;
+                    border: 1px solid #fff;
+                    border-radius: 50%;
+                    background-repeat: no-repeat;
+                    background-position: 50% 50%;
+                    -webkit-transition: all .3s;
+                    -moz-transition: all .3s;
+                    -o-transition: all .3s;
+                    transition: all .3s;
+                    &.service-1 {
+                        top: 0;
+                        left: 105px;
+                        background-image: url(/assets/images/ico_service_1.png);
+                    }
+                    &.service-2 {
+                        top: 0;
+                        right: 105px;
+                        background-image: url(/assets/images/ico_service_2.png);
+                    }
+                    &.service-3 {
+                        top: 195px;
+                        right: 0;
+                        background-image: url(/assets/images/ico_service_3.png);
+                    }
+                    &.service-4 {
+                        bottom: 0;
+                        right: 105px;
+                        background-image: url(/assets/images/ico_service_4.png);
+                    }
+                    &.service-5 {
+                        bottom: 0;
+                        left: 105px;
+                        background-image: url(/assets/images/ico_service_5.png);
+                    }
+                    &.service-6 {
+                        bottom: 195px;
+                        left: 0;
+                        background-image: url(/assets/images/ico_service_6.png);
+                    }
+                    &:hover {
+                        background-color: rgba(#765c39, .8);
+                        -webkit-transform: scale(1.2, 1.2);
+                        -moz-transform: scale(1.2, 1.2);
+                        transform: scale(1.2, 1.2);
+                    }
+                }
+            }
+        }
+        @media (min-width: $sm) {
+            .desc {
+                margin-bottom: 0;
+            }
+            .service {
+                &.hidden-lg {
+                    margin-bottom: 70px;
+                    padding: 70px 30px;
+                }
+            }
+        }
     }
     &.vision {
         background-image: url(/assets/images/bg_vision.jpg);
