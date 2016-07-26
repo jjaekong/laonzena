@@ -203,6 +203,202 @@
     }
     &.artist {
         background-image: url(/assets/images/bg_artist.jpg);
+        .artist-list {
+            padding: 30px 20px;
+            @media (min-width: $sm) {
+                margin-top: 70px;
+                margin-bottom: 10px;
+                padding: 55px 35px;
+                background-color: rgba(#0b0b0b, .8);
+            }
+            @media (min-width: $lg) {
+                margin: 0;
+                padding: 35px 25px;
+                height: 450px;
+            }
+            h3 {
+                margin-bottom: 35px;
+                font-size: 25px;
+                color: #d2b98f;
+                @media (min-width: $sm) {
+                    margin-bottom: 50px;
+                    font-size: 50px;
+                }
+                @media (min-width: $lg) {
+                    margin-bottom: 35px;
+                    font-size: 35px;
+                }
+            }
+            h4 {
+                margin-bottom: 10px;
+                font-size: 18px;
+                color: #d2b98f;
+                @media (min-width: $sm) {
+                    margin-bottom: 15px;
+                    font-size: 23px;
+                }
+                @media (min-width: $lg) {
+                    font-size: 18px;
+                }
+            }
+            ul {
+                overflow: hidden;
+                margin-bottom: 35px;
+                @media (min-width: $sm) {
+                    margin-bottom: 45px;
+                }
+                @media (min-width: $lg) {
+                    margin-bottom: 35px;
+                }
+                li {
+                    float: left;
+                    margin-right: 15px;
+                    @media (min-width: $sm) {
+                        margin-right: 20px;
+                    }
+                    @media (min-width: $lg) {
+                        margin-right: 15px;
+                    }
+                    a {
+                        font-size: 14px;
+                        color: #e1e1e1;
+                        line-height: 26px;
+                        @media (min-width: $sm) {
+                            font-size: 21px;
+                            line-height: 34px;
+                        }
+                        @media (min-width: $lg) {
+                            font-size: 15px;
+                            line-height: 28px;
+                        }
+                    }
+                }
+            }
+        }
+        .artist-view {
+            margin-right: 10px;
+            margin-left: 10px;
+            margin-bottom: 30px;
+            padding: 30px;
+            background-color: #fff;
+            color: #333;
+            .figure {
+                .img-responsive {
+                    margin: 0 auto;
+                }
+            }
+            h4 {
+                margin-top: 25px;
+                margin-bottom: 10px;
+                font-size: 18px;
+            }
+            .career {
+                h5 {
+                    margin-top: 20px;
+                    font-size: 12px;
+                }
+            }
+            @media (min-width: $sm) {
+                padding: 40px;
+                margin-left: 0;
+                margin-right: 0;
+                h4 {
+                    margin-top: 35px;
+                    margin-bottom: 15px;
+                    font-size: 28px;
+                }
+                .record {
+                    ul {
+                        li {
+                            font-size: 20px;
+                            line-height: 30px;
+                            font-weight: normal;
+                        }
+                    }
+                }
+                .career {
+                    h5 {
+                        margin-top: 35px;
+                        font-size: 20px;
+                        line-height: 30px;
+                    }
+                    p {
+                        font-size: 20px;
+                        line-height: 30px;
+                        font-weight: normal;
+                    }
+                }
+            }
+            @media (min-width: $lg) {
+                overflow: hidden;
+                margin-bottom: 0;
+                padding: 0;
+                height: 450px;
+                .figure {
+                    float: left;
+                    width: 300px;
+                }
+                .details {
+                    margin-left: 300px;
+                    padding: 40px 30px 40px 40px;
+                    height: 100%;
+                    > div {
+                        overflow: auto;
+                        padding-right: 10px;
+                        width: 100%;
+                        height: 100%;
+                        -ms-scrollbar-3dlight-color: #eee;
+                        scrollbar-arrow-color: #a6a6a6;
+                        scrollbar-base-color: #a6a6a6;
+                        -ms-scrollbar-darkshadow-color: #eee;
+                        scrollbar-face-color: #a6a6a6;
+                        -ms-scrollbar-highlight-color: #eee;
+                        -ms-scrollbar-shadow-color: #eee;
+                        -ms-scrollbar-track-color: #eee;
+
+                        &::-webkit-scrollbar {
+                            width: 10px;
+                            border-radius: 5px;
+                        }
+                        &::-webkit-scrollbar-track {
+                            display: block;
+                            background: transparent;
+                        }
+                        &::-webkit-scrollbar-thumb {
+                            display: block;
+                            background-color: #a6a6a6;
+                            border-radius: 5px;
+                            border: 1px solid transparent;
+                        }
+
+                        h4 {
+                            margin-top: 0;
+                            margin-bottom: 10px;
+                            font-size: 18px;
+                        }
+                        .record {
+                            ul {
+                                li {
+                                    font-size: 12px;
+                                    line-height: 18px;
+                                }
+                            }
+                        }
+                        .career {
+                            h5 {
+                                margin-top: 15px;
+                                font-size: 12px;
+                                line-height: 18px;
+                            }
+                            p {
+                                font-size: 12px;
+                                line-height: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
