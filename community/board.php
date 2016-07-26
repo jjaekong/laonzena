@@ -42,7 +42,7 @@
                                     <tbody>
                                         <tr>
                                             <td>10</td>
-                                            <td class="title"><a href="#">공지사항 입니다.</a></td>
+                                            <td class="title"><a href="./board_view.php">공지사항 입니다.</a></td>
                                             <td>1016-07-15</td>
                                             <td>134</td>
                                         </tr>

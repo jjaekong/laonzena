@@ -14,14 +14,25 @@
                                 </header>
                                 <div class="desc-body">
                                     <h4>Hair</h4>
+                                    <ul>
+                                        <li><a href="#">아티스트1</a></li>
+                                        <li><a href="#">아티스트2</a></li>
+                                        <li><a href="#">아티스트3</a></li>
+                                        <li><a href="#">아티스트4</a></li>
+                                    </ul>
                                     <h4>Make up</h4>
+                                    <ul>
+                                        <li><a href="#">아티스트1</a></li>
+                                        <li><a href="#">아티스트2</a></li>
+                                        <li><a href="#">아티스트3</a></li>
+                                        <li><a href="#">아티스트4</a></li>
+                                    </ul>
                                 </div>
                             </article>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-lg-7">
-                    아티스트 설명영역
                 </div>
             </div>
         </div>
