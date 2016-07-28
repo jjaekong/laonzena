@@ -35,7 +35,7 @@
                 <div class="col-xs-12 col-lg-7">
                     <div class="content-box">
                         <div class="content-cell">
-                            <article class="artist-view">
+                            <!-- article class="artist-view">
                                 <p class="figure">
                                     <img class="img-responsive" src="/assets/images/img_artist_1.jpg" alt="">
                                 </p>
@@ -64,7 +64,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </article>
+                            </article -->
+                            <p class="tbd"><span>TBD</span></p>
                         </div>
                     </div>
                 </div>

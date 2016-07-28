@@ -33,6 +33,13 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-xs-12 col-lg-7">
+                    <div class="content-box">
+                        <div class="content-cell">
+                            <p class="tbd"><span>TBD</span></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>

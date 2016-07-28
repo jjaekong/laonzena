@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(//fonts.googleapis.com/css?family=Lato:300);
 html {
   min-width: 320px;
   height: 100%; }

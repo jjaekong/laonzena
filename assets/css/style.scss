@@ -130,6 +130,116 @@
     }
 }
 
+.tbd {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 24px;
+    text-align: center;
+    color: #d2b98f;
+    font-weight: bolder;
+    @media (min-width: $sm) {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        font-size: 60px;
+        line-height: 60px;
+    }
+    @media (min-width: $lg) {
+        padding-top: 0;
+        padding-bottom: 0;
+        font-size: 48px;
+        line-height: 48px;
+    }
+    span {
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: rgba(#000, .7);
+    }
+}
+
+.main {
+    #content {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .content-cell {
+        padding: 10px 20px;
+        @media (min-width: $sm) {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        @media (min-width: $lg) {
+            padding: 70px 10px;
+        }
+    }
+    .video-link {
+        .img-responsive {
+            margin: 0 auto;
+            border: 3px solid #241f16;
+            @media (min-width: $sm) {
+                border-width: 5px;
+            }
+        }
+        &:hover,
+        &:focus {
+            .img-responsive {
+                border-color: #000;
+            }
+        }
+    }
+    .modal {
+        .modal-dialog {
+            @media (min-width: $lg) {
+                margin-top: 100px;
+                margin-bottom: 100px;
+            }
+        }
+        .modal-content {
+            box-shadow: none;
+            background-color: transparent;
+            .modal-header {
+                padding-top: 0;
+                padding-bottom: 10px;
+                border-bottom: 0;
+                .modal-title {
+                    color: #6f5336;
+                    font-family: 'Lato', sans-serif;
+                    font-size: 14px;
+                }
+                .close {
+                    color: #6f5336;
+                    opacity: 1;
+                    text-shadow: none;
+                }
+                @media (min-width: $sm) {
+                    padding-bottom: 15px;
+                    .modal-title {
+                        font-size: 25px;
+                    }
+                    .close {
+                        color: #6f5336;
+                    }
+                }
+                @media (min-width: $lg) {
+                    padding-bottom: 20px;
+                    .modal-title {
+                        font-size: 20px;
+                    }
+                    .close {
+                        color: #6f5336;
+                    }
+                }
+            }
+            .modal-body {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+        }
+    }
+    .modal-backdrop.in {
+        opacity: .9;
+    }
+}
+
 .introduce {
     &.about {
         background-image: url(/assets/images/bg_about.jpg);
