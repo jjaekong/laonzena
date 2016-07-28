@@ -150,6 +150,7 @@
       padding: 70px 10px; } }
 .main .video-link .img-responsive {
   margin: 0 auto;
+  width: 100%;
   border: 3px solid #241f16; }
   @media (min-width: 768px) {
     .main .video-link .img-responsive {
